@@ -5,17 +5,20 @@ const Header = () => {
         <>
             <div className="flex text-cyan-50  bg-stone-800 items-center justify-between">
                 <ul className="flex list-none w-1/4">
-                    <li className="mx-6">
+                    <li className="mx-4">
                         <Link to='/'>Use State</Link>
                     </li>
-                    <li className="mx-6">
+                    <li className="mx-4">
                         <Link to='./UseEffect'>Use Effect</Link>
                     </li>
-                    <li className="mx-6">
+                    <li className="mx-4">
                         <Link to='./About'>About</Link>
                     </li>
-                    <li className="mx-6">
+                    <li className="mx-4">
                         <Link to='./greet'>Greeting</Link>
+                    </li>
+                    <li className="mx-4">
+                        <Link to='./UseRef'>Use Ref</Link>
                     </li>
                 </ul>
                 <div className="h-28 flex

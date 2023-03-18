@@ -12,6 +12,7 @@ import Greeting from "./Components/Greet/Greeting";
 import MGreet from "./Components/Greet/MGreet";
 import CGreet from "./Components/Greet/CGreet";
 import HGreet from "./Components/Greet/HGreet";
+import UseRef from "./Components/UseRef/UseRef";
 
 
 const GreetingsDiff = createContext();
@@ -54,6 +55,9 @@ function App() {
             <Route path="Cgreet" element={<CGreet />} />
             <Route path="Hgreet" element={<HGreet />} />
           </Route>
+
+          {/* UseRef */}
+          <Route path="/useRef" element={<UseRef />}/>
 
           {/* Error Page */}
           <Route path="*" element={<Error />} />
