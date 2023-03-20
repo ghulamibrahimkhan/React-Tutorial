@@ -28,6 +28,9 @@ const Header = () => {
                     <li className="mx-4">
                         <Link to='./UseReducer'>Use Reducer</Link>
                     </li>
+                    <li className="mx-4">
+                        <Link to='./CustomHook'>Custom Hook</Link>
+                    </li>
                 </ul>
             </div>
         </>
