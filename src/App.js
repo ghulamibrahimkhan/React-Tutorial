@@ -15,6 +15,7 @@ import HGreet from "./Components/Greet/HGreet";
 import UseRef from "./Components/UseRef/UseRef";
 import UseReducer from "./Components/UseReducer/UseReducer";
 import CustomHook from "./Components/CustomHook/CustomHook";
+import UseMemo from "./Components/UseMemo/UseMemo";
 
 const GreetingsDiff = createContext();
 function App() {
@@ -65,6 +66,9 @@ function App() {
 
           {/* Custom Hook */}
           <Route path="/CustomHook" element={<CustomHook />}/>
+
+          {/* Use Memo */}
+          <Route path="/UseMemo" element={<UseMemo />}/>
 
           {/* Error Page */}
           <Route path="*" element={<Error />} />
