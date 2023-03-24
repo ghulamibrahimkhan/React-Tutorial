@@ -17,6 +17,9 @@ const Header = () => {
                     <li className="mx-4">
                         <Link to='./greet'>Greeting</Link>
                     </li>
+                    <li className="mx-4">
+                        <Link to='./UseCallback'>Use Callback</Link>
+                    </li>
                 </ul>
                 <div className="h-28 flex
              justify-center items-center text-6xl ">React Hooks

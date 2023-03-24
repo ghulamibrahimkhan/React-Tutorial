@@ -16,6 +16,7 @@ import UseRef from "./Components/UseRef/UseRef";
 import UseReducer from "./Components/UseReducer/UseReducer";
 import CustomHook from "./Components/CustomHook/CustomHook";
 import UseMemo from "./Components/UseMemo/UseMemo";
+import UseCallback from "./Components/useCallback/UseCallback";
 
 const GreetingsDiff = createContext();
 function App() {
@@ -69,6 +70,10 @@ function App() {
 
           {/* Use Memo */}
           <Route path="/UseMemo" element={<UseMemo />}/>
+          
+          {/* Use Callback */}
+          <Route path="/UseCallback" element={<UseCallback />}/>
+
 
           {/* Error Page */}
           <Route path="*" element={<Error />} />
